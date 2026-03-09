@@ -36,16 +36,26 @@ color:#249ea1;
 font-weight:bold;
 }
 
-
 .hero{
-height:80vh;
-background:url("https://image2url.com/r2/default/images/1773087440016-7b4c8ae0-3275-4be3-a954-168c8cbe0580.jpg") center/cover no-repeat;
+width:100%;
+max-width:1100px;
+height:619px; 
+
+margin:40px auto;
+
+background:
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+url("https://image2url.com/r2/default/images/1773089072216-c17669be-c5e2-4149-bf93-7f4d11e896b8.jpg")
+center/cover no-repeat;
+
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 color:white;
 text-align:center;
+
+border-radius:12px;
 }
 
 .hero h2{
