@@ -13,8 +13,8 @@ line-height:1.6;
 
 
 header{
-background:#80d0e8;
-color:white;
+background:white;
+color:#249ea1;
 padding:20px;
 display:flex;
 justify-content:space-between;
@@ -32,14 +32,14 @@ margin-left:20px;
 
 nav ul li a{
 text-decoration:none;
-color:white;
+color:#249ea1;
 font-weight:bold;
 }
 
 
 .hero{
 height:80vh;
-background:url("https://image2url.com/r2/default/images/1772737662291-6cb7f704-9391-4393-bd1f-99bf5e39f68f.jpg") center/cover no-repeat;
+background:url("https://image2url.com/r2/default/images/1773087440016-7b4c8ae0-3275-4be3-a954-168c8cbe0580.jpg") center/cover no-repeat;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -49,15 +49,30 @@ text-align:center;
 }
 
 .hero h2{
-font-size:52px;
-font-weight:700;
+font-size:64px;
+font-weight:900;
 color:white;
 
 text-shadow:
--2px -2px 0 #80d0e8,
-2px -2px 0 #80d0e8,
--2px 2px 0 #80d0e8,
-2px 2px 0 #80d0e8;
+0px 4px 15px rgba(0,0,0,0.7),
+-2px -2px 0 #249ea1,
+2px -2px 0 #249ea1,
+-2px 2px 0 #249ea1,
+2px 2px 0 #249ea1;
+}
+
+.hero-quote{
+font-size:28px;
+margin-top:15px;
+margin-bottom:20px;
+font-style:italic;
+font-weight:600;
+color:white;
+letter-spacing:1px;
+
+text-shadow:
+0px 4px 15px rgba(0,0,0,0.9),
+0px 0px 10px rgba(0,0,0,0.6);
 }
 
 #contact h2{
@@ -129,7 +144,7 @@ border-radius:5px;
 }
 
 button{
-background:#80d0e8;
+background:#249ea1;
 color:white;
 border:none;
 padding:12px;
@@ -222,4 +237,26 @@ margin-top:20px;
 text-decoration:none;
 color:#333;
 font-weight:bold;
+}
+
+.class-benefits{
+margin-top:15px;
+padding-left:20px;
+line-height:1.8;
+}
+
+.class-benefits li{
+margin-bottom:6px;
+}
+
+.closing-text{
+margin-top:15px;
+font-style:italic;
+font-weight:500;
+}
+
+.studio-note{
+margin-top:10px;
+font-weight:bold;
+color:#249ea1;
 }
