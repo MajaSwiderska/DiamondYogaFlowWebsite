@@ -61,3 +61,5 @@ Clients can connect through:
 ## Purpose
 
 This website was created to help promote a yoga instructor's services online and provide an easy way for potential clients to learn about classes and get in touch.
+
+Project is still under construction! Needs more features to be added. 
