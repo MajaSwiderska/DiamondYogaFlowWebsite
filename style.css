@@ -1,7 +1,7 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+margin:0;       
+padding:0;          
+box-sizing:border-box; 
 font-family: 'Lato', sans-serif;
 }
 
@@ -348,4 +348,69 @@ animation:float 3s ease-in-out infinite;
 0%{transform:translateY(0px);}
 50%{transform:translateY(-6px);}
 100%{transform:translateY(0px);}
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 768px){
+
+header{
+flex-direction:column;
+text-align:center;
+gap:10px;
+}
+
+nav ul{
+flex-direction:column;
+gap:10px;
+}
+
+.hero{
+height:420px;
+max-width:95%;
+}
+
+.hero h2{
+font-size:42px;
+}
+
+.hero-quote{
+font-size:20px;
+}
+
+.about-container{
+flex-direction:column;
+text-align:center;
+}
+
+.about-photo{
+width:220px;
+}
+
+.experience-container{
+flex-direction:column;
+align-items:center;
+}
+
+.experience-card{
+width:90%;
+}
+
+.schedule-img{
+max-width:90%;
+}
+
+.social-links{
+gap:25px;
+}
+
+.social-links img{
+width:70px;
+height:70px;
+}
+
+h2{
+font-size:34px;
+}
+
 }
