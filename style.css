@@ -112,11 +112,62 @@ max-width:1000px;
 margin:auto;
 }
 
-h2{
-margin-bottom:20px;
+#experience{
+background:#eef7f7;
+padding:70px 20px;
 text-align:center;
 }
 
+.experience-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.experience-card{
+background:white;
+width:240px;
+padding:25px;
+border-radius:14px;
+box-shadow:0 6px 18px rgba(0,0,0,0.12);
+transition:transform 0.3s;
+}
+
+.experience-card:hover{
+transform:translateY(-8px);
+}
+
+.experience-card h3{
+margin-bottom:10px;
+color:#249ea1;
+}
+
+.experience-end{
+margin-top:40px;
+font-size:20px;
+font-style:italic;
+}
+
+h2{
+margin-bottom:30px;
+text-align:center;
+font-size:44px;
+font-weight:700;
+color:#249ea1;
+letter-spacing:1.5px;
+}
+
+h2::after{
+content:"";
+display:block;
+width:70px;
+height:3px;
+background:#249ea1;
+margin:12px auto 0;
+border-radius:3px;
+}
 
 .class-container{
 display:flex;
@@ -137,7 +188,6 @@ text-align:center;
 .class-card h3{
 margin-bottom:10px;
 }
-
 
 form{
 display:flex;
@@ -169,6 +219,15 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+
+.community{
+text-align:center;
+font-size:28px;
+font-weight:700;
+margin-top:25px;
+color:#249ea1;
+}
+
 .social-links{
 display:flex;
 justify-content:center;
@@ -184,8 +243,8 @@ text-align:center;
 }
 
 .social-links img{
-width:60px;
-height:60px;
+width:85px;
+height:85px;
 transition:transform 0.3s;
 }
 
@@ -210,6 +269,7 @@ box-shadow:0 4px 10px rgba(0,0,0,0.2);
 .about-text{
 flex:1;
 font-size:18px;
+line-height:1.8;
 }
 
 h1, h2, h3{
@@ -230,7 +290,7 @@ width:auto;
 
 .schedule-img{
 width:100%;
-max-width:900px;
+max-width:650px;
 display:block;
 margin:40px auto;
 border-radius:10px;
@@ -247,6 +307,12 @@ margin-top:20px;
 text-decoration:none;
 color:#333;
 font-weight:bold;
+}
+
+#classes{
+background:#f3fbfb;
+padding:80px 20px;
+border-radius:20px;
 }
 
 .class-benefits{
@@ -269,4 +335,17 @@ font-weight:500;
 margin-top:10px;
 font-weight:bold;
 color:#249ea1;
+}
+
+.sticker{
+font-size:40px;
+display:block;
+margin-bottom:10px;
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-6px);}
+100%{transform:translateY(0px);}
 }
