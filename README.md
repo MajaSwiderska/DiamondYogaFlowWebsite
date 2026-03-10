@@ -112,3 +112,8 @@ Potential features to expand the website include:
 
 Created by **Maja Swiderska** as a website project for the **Diamond Yoga Flow** yoga studio. More future updtates!
 
+---
+
+## Link
+https://majaswiderska.github.io/DiamondYogaFlowWebsite/
+
