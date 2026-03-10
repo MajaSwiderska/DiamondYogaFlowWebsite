@@ -110,7 +110,7 @@ Potential features to expand the website include:
 
 ## 👨‍💻 Author
 
-Created by **Maja Swiderska** as a website project for the **Diamond Yoga Flow** yoga studio. More future updtates!
+Created by **Maja Swiderska** as a website project for the **Diamond Yoga Flow** yoga studio. More future updates!
 
 ---
 
